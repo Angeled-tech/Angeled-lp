@@ -1,0 +1,17 @@
+# Design Rules
+
+- Manter identidade visual dark/vinho.
+- Visual deve parecer premium, tecnológico, residencial e confiável.
+- Usar vinho como identidade, não como alerta constante.
+- Usar lucide-react para ícones sempre que houver ícone correspondente.
+- Evitar emojis na interface final.
+- Priorizar seções full-width com conteúdo centralizado; cards apenas para itens repetidos, FAQ, features e blocos informativos.
+- Não criar UI com aparência de dashboard operacional.
+- Não criar landing genérica de SaaS; o produto físico/residencial precisa aparecer no primeiro viewport.
+- Usar Playfair Display para títulos e DM Sans para textos, conforme docs da LP.
+- Componentes devem usar tokens globais, não estilos soltos sem padrão.
+- Layout mobile precisa ser tratado como primeira classe.
+- CTA e links devem ter foco visível.
+- Cards devem ter espaçamento consistente e bordas suaves.
+- Animações devem ser discretas e não atrasar a leitura.
+

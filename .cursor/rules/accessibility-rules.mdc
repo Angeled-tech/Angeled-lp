@@ -1,0 +1,14 @@
+# Accessibility Rules
+
+- Usar HTML semântico.
+- Garantir foco visível em todos os elementos interativos.
+- Botões e links precisam ter texto claro ou `aria-label`.
+- FAQ deve usar botão e `aria-expanded`.
+- Imagens precisam de `alt`.
+- Status e mensagens não devem depender apenas de cor.
+- Header fixo não pode cobrir conteúdo ao navegar por âncoras.
+- Texto deve manter contraste adequado no tema dark/vinho.
+- O CTA principal deve ser acessível por teclado.
+- Não usar texto importante apenas dentro de imagem.
+- Animações devem respeitar usuários sensíveis a movimento quando possível.
+

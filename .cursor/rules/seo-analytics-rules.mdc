@@ -1,0 +1,16 @@
+# SEO and Analytics Rules
+
+- Implementar SEO básico antes de deploy.
+- Title sugerido: “Angeled — Controle inteligente para fechaduras elétricas”.
+- Meta description deve refletir a proposta de controle por cartão, histórico no app, notificações e funcionamento offline.
+- Usar `lang="pt-BR"`.
+- Criar Open Graph e Twitter Card.
+- Referenciar OG image 1200x630 quando existir.
+- Criar `robots.txt`.
+- Criar `sitemap.xml` com `/`, `/privacidade` e `/termos`.
+- Canonical deve ter TODO claro enquanto o domínio oficial não existir.
+- Google Analytics só deve carregar se `VITE_GA_ID` existir.
+- Não hardcodar ID de analytics.
+- Não quebrar build se variáveis de ambiente estiverem ausentes.
+- Nenhum evento de analytics deve coletar dados sensíveis.
+

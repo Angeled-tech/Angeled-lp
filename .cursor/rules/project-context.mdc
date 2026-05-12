@@ -1,0 +1,43 @@
+# Project Context — Angeled LP
+
+Este projeto é a landing page oficial do Angeled.
+
+O Angeled é um gerenciador inteligente para fechaduras elétricas residenciais compatíveis. A Angeled não vende a fechadura física; vende o Gerenciador Angeled, que adiciona controle de acesso por cartão, histórico no app, notificações e funcionamento offline para acessos já cadastrados.
+
+## Objetivo da LP
+
+- Explicar rapidamente o que é o Angeled.
+- Preparar o visitante para compra futura pelo Mercado Livre.
+- Comunicar valor residencial sem promessas absolutas.
+- Capturar interesse futuramente, se a feature de lead capture for ativada.
+- Servir como frente comercial/institucional separada do app, backend, firmware e painel Admin.
+
+## Premissas comerciais
+
+- Pré-venda em breve.
+- Compra futura pelo Mercado Livre.
+- Venda nacional desde o início.
+- Sem assinatura no lançamento.
+- Kit inicial com 1 Gerenciador Angeled e 5 cartões de acesso.
+- Histórico de acessos por até 90 dias.
+
+## Stack definida
+
+- React.
+- Vite.
+- TypeScript.
+- React Router DOM.
+- lucide-react.
+- CSS global com tokens e componentes.
+- Deploy na Vercel.
+
+## Rotas públicas
+
+- `/` — landing principal.
+- `/privacidade` — política de privacidade simples.
+- `/termos` — termos de uso simples.
+
+## Regra principal
+
+A LP é comercial e informativa. Ela não deve implementar login, gestão de dispositivos, checkout, backend crítico, integração com firmware, área do cliente ou painel Admin.
+

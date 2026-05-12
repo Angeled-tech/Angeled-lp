@@ -1,0 +1,16 @@
+# LP Rules
+
+- A LP deve apresentar o Angeled como gerenciador inteligente para fechaduras elétricas residenciais compatíveis.
+- A LP não deve tratar o Angeled como fechadura física vendida pela empresa.
+- A LP deve preservar o objetivo comercial: explicar, gerar confiança e preparar a compra futura pelo Mercado Livre.
+- Não criar checkout próprio.
+- Não criar login.
+- Não criar área do cliente.
+- Não integrar com ESP32, firmware, backend operacional ou app mobile.
+- Não criar link falso de compra.
+- O CTA principal é “Avise-me quando estiver disponível”.
+- Enquanto `leadCapture` estiver falso, o CTA deve rolar para a seção Mercado Livre / Pré-venda.
+- A menção comercial principal deve ser “Em breve pelo Mercado Livre.”
+- Feature flags obrigatórias: `leadCapture: false` e `mercadoLivreLink: false`.
+- Se uma funcionalidade futura estiver desativada, ela não deve aparecer visualmente como promessa ativa.
+

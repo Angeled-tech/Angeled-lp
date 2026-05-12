@@ -1,0 +1,23 @@
+# QA Rules
+
+Antes de considerar a LP pronta, validar:
+
+- Build sem erros.
+- Rotas `/`, `/privacidade` e `/termos`.
+- Fallback SPA da Vercel.
+- Responsividade em 360px, 390px, 768px, 1024px e 1440px.
+- Header mobile.
+- CTA principal.
+- Links de footer.
+- Link do WhatsApp.
+- FAQ acessível com `aria-expanded`.
+- Foco visível em links e botões.
+- Contraste adequado.
+- SEO básico.
+- Analytics não carrega sem `VITE_GA_ID`.
+- Não há checkout próprio.
+- Não há link falso de Mercado Livre.
+- Não há promessas proibidas.
+- Lead capture não aparece quando `leadCapture` for falso.
+- Console do navegador sem erros.
+
