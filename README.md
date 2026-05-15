@@ -10,7 +10,6 @@ Este pacote contém documentos de planejamento para migrar a landing page do Ang
 4. `03-seo-analytics-deploy.md` — SEO, Google Analytics, Vercel e domínio.
 5. `04-termos-privacidade-base.md` — base inicial para páginas `/termos` e `/privacidade`.
 6. `05-checklist-qa-lp.md` — checklist de QA visual, técnico, SEO e conversão.
-7. `06-prompt-codex-implementacao.md` — prompt operacional para criação dos arquivos via Codex.
 
 ## Estrutura de execução
 

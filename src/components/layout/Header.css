@@ -1,0 +1,90 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: var(--header-height);
+  border-bottom: 1px solid transparent;
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    backdrop-filter 180ms ease;
+}
+
+.site-header--scrolled {
+  border-color: var(--border-subtle);
+  background: rgba(12, 12, 14, 0.82);
+  backdrop-filter: blur(18px);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  min-height: var(--header-height);
+}
+
+.site-header__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-header__logo-icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.site-header__logo-name {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-1);
+  line-height: 1;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: #9a9098;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.site-header__nav a {
+  transition: color 180ms ease;
+}
+
+.site-header__nav a:hover {
+  color: var(--text-1);
+}
+
+.site-header__cta.button--primary {
+  white-space: nowrap;
+  border-radius: var(--radius-md);
+  color: #b5aab0;
+}
+
+.site-header__cta.button--primary:hover:not(:disabled) {
+  color: var(--text-1);
+}
+
+@media (max-width: 860px) {
+  .site-header__nav {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .site-header__cta {
+    display: none;
+  }
+}

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5C0F1E"/>
+      <stop offset="100%" stop-color="#7A1020"/>
+    </linearGradient>
+    <radialGradient id="shieldGlow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#C0263D" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#4A0711" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="iconShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#4A0711" flood-opacity="0.35"/>
+    </filter>
+    <filter id="arcGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="32" ry="32" fill="url(#iconBg)" filter="url(#iconShadow)"/>
+  <rect x="8" y="8" width="144" height="144" rx="32" ry="32" fill="url(#shieldGlow)"/>
+  <rect x="8" y="8" width="144" height="144" rx="32" ry="32" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <path d="M80 34 L118 68 L42 68 Z" fill="white" opacity="0.95"/>
+  <rect x="50" y="68" width="60" height="42" rx="3" fill="white" opacity="0.95"/>
+  <rect x="71" y="85" width="18" height="25" rx="4" fill="#7A1020"/>
+  <circle cx="86" cy="98" r="2" fill="rgba(255,255,255,0.7)"/>
+  <rect x="54" y="74" width="12" height="12" rx="2" fill="#7A1020" opacity="0.9"/>
+  <rect x="94" y="74" width="12" height="12" rx="2" fill="#7A1020" opacity="0.9"/>
+  <path d="M72 30 A11 11 0 0 1 88 30" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" filter="url(#arcGlow)"/>
+  <path d="M65 23 A19 19 0 0 1 95 23" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" opacity="0.75" filter="url(#arcGlow)"/>
+  <path d="M58 16 A27 27 0 0 1 102 16" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" opacity="0.45"/>
+  <circle cx="80" cy="34" r="3.5" fill="white" opacity="0.9"/>
+</svg>

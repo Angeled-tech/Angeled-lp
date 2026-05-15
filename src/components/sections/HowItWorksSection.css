@@ -1,0 +1,212 @@
+.how-flow {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  margin-bottom: var(--space-2xl);
+  padding: var(--space-md);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+}
+
+.how-flow__item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex: 1 1 12rem;
+  min-width: 0;
+  padding: 0.6rem 0.85rem;
+}
+
+.how-flow__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  background: rgba(122, 16, 32, 0.14);
+  border: 1px solid rgba(122, 16, 32, 0.32);
+  color: var(--wine-border);
+  flex-shrink: 0;
+}
+
+.how-flow__label {
+  font-size: var(--text-body-sm);
+  font-weight: 600;
+  color: var(--text-1);
+  line-height: 1.3;
+}
+
+.how-flow__arrow {
+  margin-left: auto;
+  color: var(--text-3);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .how-flow__arrow {
+    display: none;
+  }
+}
+
+.how-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .how-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-3xl);
+  }
+}
+
+.how-steps {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.how-step {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: flex-start;
+  padding: var(--space-xl) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.how-step:last-child {
+  border-bottom: none;
+}
+
+.how-step__num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: rgba(122, 16, 32, 0.12);
+  border: 1px solid rgba(122, 16, 32, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--wine-border);
+  margin-top: 2px;
+}
+
+.how-step__title {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 600;
+  color: var(--text-1);
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.how-step__desc {
+  font-size: var(--text-body-sm);
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
+.how-visual {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-node {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg) var(--space-xl);
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.how-node:hover {
+  border-color: var(--border-strong);
+  box-shadow: 0 4px 24px rgba(122, 16, 32, 0.12);
+}
+
+.how-node--highlighted {
+  border-color: rgba(122, 16, 32, 0.4);
+  background: linear-gradient(135deg, rgba(122, 16, 32, 0.12), var(--bg-elevated));
+}
+
+.how-node__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.how-node__icon--wine {
+  background: rgba(122, 16, 32, 0.12);
+  border-color: rgba(122, 16, 32, 0.35);
+}
+
+.how-node__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-1);
+}
+
+.how-node__sub {
+  font-size: 12px;
+  color: var(--text-2);
+  margin-top: 2px;
+}
+
+.how-connector {
+  width: 2px;
+  height: 28px;
+  background: linear-gradient(to bottom, rgba(122, 16, 32, 0.35), transparent);
+  margin: 0 0 0 29px;
+}
+
+.how-offline-note {
+  margin-top: var(--space-xl);
+  padding: var(--space-lg);
+  background: rgba(31, 138, 76, 0.08);
+  border: 1px solid rgba(31, 138, 76, 0.2);
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  color: #3dd68c;
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.how-offline-note > span {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.how-offline-note strong {
+  display: block;
+  font-weight: 600;
+  color: var(--text-1);
+}
+
+.how-offline-note__sub {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-2);
+}

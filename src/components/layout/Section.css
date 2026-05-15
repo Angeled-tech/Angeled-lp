@@ -1,0 +1,43 @@
+.section {
+  position: relative;
+  padding-block: var(--space-3xl);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.section--alt {
+  background: rgba(255, 255, 255, 0.018);
+}
+
+.section--wine {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(158, 27, 50, 0.22), transparent 34rem),
+    rgba(122, 16, 32, 0.08);
+}
+
+.section__header {
+  display: grid;
+  gap: var(--space-md);
+  max-width: 46rem;
+  margin-bottom: var(--space-xl);
+}
+
+.section__header h2 {
+  font-size: var(--text-title-md);
+}
+
+.section__header p {
+  font-size: var(--text-body-lg);
+}
+
+.section__eyebrow {
+  color: var(--wine-border);
+  font-size: var(--text-caption);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.section--centered .section__header {
+  text-align: center;
+  margin-inline: auto;
+}

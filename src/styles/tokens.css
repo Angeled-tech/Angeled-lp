@@ -1,0 +1,58 @@
+:root {
+  --wine-dark: #4a0711;
+  --wine: #7a1020;
+  --wine-bright: #9e1b32;
+  --wine-border: #d9a7af;
+  --wine-soft: #f8e8eb;
+
+  --bg: #0c0c0e;
+  --bg-2: #111113;
+  --bg-card: #161618;
+  --bg-elevated: #1c1c20;
+
+  --text-1: #f5f0ee;
+  --text-2: #b8adb4;
+  --text-3: #8d838a;
+
+  --success: #1f8a4c;
+  --danger: #c53030;
+  --warning: #b7791f;
+  --offline: #718096;
+
+  --border-subtle: rgba(217, 167, 175, 0.16);
+  --border-strong: rgba(217, 167, 175, 0.32);
+  --shadow-soft: 0 24px 80px rgba(0, 0, 0, 0.35);
+  --shadow-wine: 0 24px 80px rgba(122, 16, 32, 0.24);
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  --container-sm: 47.5rem;
+  --container-md: 65rem;
+  --container-lg: 75rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 999px;
+
+  --text-caption: 0.8125rem;
+  --text-body-sm: 0.9375rem;
+  --text-body: 1rem;
+  --text-body-lg: 1.125rem;
+  --text-title-sm: clamp(1.5rem, 2vw, 2rem);
+  --text-title-md: clamp(2rem, 4vw, 3rem);
+  --text-display: clamp(3rem, 7vw, 5.5rem);
+
+  --header-height: 5rem;
+}
